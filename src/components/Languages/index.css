@@ -1,0 +1,26 @@
+.lang-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #db1c48;
+  background-color: white;
+  border: 1px solid #db1c48;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 20px;
+  height: 35px;
+  width: 100px;
+  cursor: pointer;
+}
+.active {
+  background-color: #db1c48;
+  color: white;
+}
+
+@media screen and (max-width: 576px) {
+  .lang-button {
+    width: 80px;
+    height: 30px;
+    font-size: 15px;
+  }
+}
